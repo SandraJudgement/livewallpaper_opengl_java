@@ -2,9 +2,9 @@ name: AndroidBuild
 
 on:
   push:
-    branches: [ "aaa" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "aaa" ]
+    branches: [ "main" ]
 
 jobs:
   build:
